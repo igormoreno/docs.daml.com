@@ -64,7 +64,7 @@ a list of all available templates run ``daml new --list``.
 Any commands starting with ``daml`` are using the :doc:`Daml Assistant </tools/assistant>`, a
 command line tool in the SDK for building and running Daml apps.
 
-The command has started successfully when you see the ``INFO  com.daml.http.Main$ - Started server: ServerBinding(/127.0.0.1:7575)`` message in the terminal. The command does a few things:
+The command has started successfully when you see the ``INFO  com.daml.http.Main - Started server: (ServerBinding(/127.0.0.1:7575),None)`` message in the terminal. The command does a few things:
 
     1. Compiles the Daml code to a DAR (Daml Archive) file
     2. Generates a JavaScript library in ``ui/daml.js`` to connect the UI with your Daml code
